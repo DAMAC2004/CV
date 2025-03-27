@@ -9,7 +9,7 @@ export default function App() {
       {/* Header */}
       <header className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white text-center py-12 m-10 rounded-3xl shadow-lg">
         <img 
-          src="/src/assets/pfp.bmp" 
+          src="./src/assets/pfp.bmp" 
           alt="Foto de perfil" 
           className="w-32 h-32 rounded-full mx-auto border-4 border-white shadow-lg"
         />
