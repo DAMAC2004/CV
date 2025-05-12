@@ -8,7 +8,9 @@ export default function AboutMe() {
       <BarNav />
 
       {/* Contenido principal */}
-      <main className="flex-grow max-w-3xl mx-auto mt-20 px-4 sm:px-6 py-6 bg-white shadow-lg rounded-xl border-l-4 border-purple-500">
+      <div className="flex-grow max-w-3xl mx-auto mt-20 px-4 py-6 sm:px-6 lg:px-8 bg-white shadow-lg rounded-xl border-l-4 border-purple-500">
+
+
         <h2 className="text-3xl font-bold text-purple-700 mb-4">Acerca de Mí</h2>
         <p className="text-gray-700 leading-relaxed">
           Soy una persona altamente comprometida con los proyectos en los que participo, con un enfoque meticuloso en la planificación y ejecución. Me destaco por mi capacidad de aprendizaje continuo y mi disposición para enfrentar nuevos retos, lo que me permite adaptarme rápidamente a distintas tecnologías y metodologías de trabajo.
@@ -25,7 +27,7 @@ export default function AboutMe() {
         <p className="text-gray-700 leading-relaxed mt-4">
           Soy una excelente elección para cualquier equipo de trabajo gracias a mi enfoque analítico, mi capacidad para resolver problemas de manera estructurada y mi compromiso con la mejora continua.
         </p>
-      </main>
+      </div>
 
       {/* Sección de Fortalezas, Habilidades, Enfoque y Desafíos */}
       <section className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 px-4 sm:px-6 max-w-6xl mx-auto mb-10">
